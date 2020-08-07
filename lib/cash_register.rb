@@ -14,4 +14,6 @@ class CashRegister
     else @total += price
     end 
   end 
+  
+  
 end
