@@ -16,6 +16,9 @@ class CashRegister
   end 
   
   def apply_discount 
-    
+    if @discount 
+      
+    else 
+    end 
   end 
 end
