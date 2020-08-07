@@ -12,6 +12,7 @@ class CashRegister
     @title = title 
     if quantity
       @total += price * quantity
+      quantity.times do items << title end 
     else @total += price
     end 
   end 
