@@ -11,5 +11,6 @@ class CashRegister
     @title = title 
     if quantity
       @total += price * quantity
+    else @total += price
   end 
 end
